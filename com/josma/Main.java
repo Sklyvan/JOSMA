@@ -1,5 +1,6 @@
 package com.josma;
 
+import de.westnordost.osmapi.user.*;
 import oauth.signpost.exception.*;
 import java.io.IOException;
 import java.io.File;
