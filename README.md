@@ -3,7 +3,7 @@ Java Open Street Map API (JOSMA) is a simple and minimal API to interact with OS
 
 ## Basic Installation
 1. Go to your OpenStreetMap account and [create](https://www.openstreetmap.org/user/x/oauth_clients/new) a new project.
-2. Select the Consumer Key and Consumer Secret [from the project](https://www.openstreetmap.org/user/x/oauth_clients/9914).
+2. Select the Consumer Key and Consumer Secret [from the project](https://www.openstreetmap.org/user/x/oauth_clients/).
 3. Create a file named "Keys.ini" in the root of your project and put the keys into it like the following:
 ```ini
 [AuthenticationKeys]
