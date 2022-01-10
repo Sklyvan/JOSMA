@@ -1,4 +1,4 @@
-# JOSMA
+![](./res/Logo.png)
 Java Open Street Map API (JOSMA) is a simple and minimal API to interact with OSM API using Java.
 
 ## Basic Installation
