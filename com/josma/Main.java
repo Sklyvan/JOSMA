@@ -18,7 +18,7 @@ public class Main
     public static void main(String[] args) throws IOException, URISyntaxException,
             OAuthMessageSignerException, OAuthExpectationFailedException, OAuthCommunicationException, OAuthNotAuthorizedException
     {
-        if (new File(KEYS_FILEPATH).exists())
+        if (new File(KEYS_FILEPATH).exists()) // Before running the program, you must create a file called Keys.ini
         {
             AtomicReference<Wini> userKeys = new AtomicReference<Wini>(new Wini(new File(KEYS_FILEPATH)));
             CONSUMER_KEY = userKeys.get().get("AuthenticationKeys", "ConsumerKey", String.class);
@@ -30,7 +30,7 @@ public class Main
             System.exit(1);
         }
 
-        OpenStreetMap MyMap = new OpenStreetMap(API_URL, USER_AGENT, CONSUMER_KEY, CONSUMER_SECRET);
+        OpenStreetMap MyMap = new OpenStreetMap(API_URL, USER_AGENT, CONSUMER_KEY, CONSUMER_SECRET); // Once the keys are loaded, the program can start
         System.out.println("Connection to OpenStreetMap API established.");
     }
 }
