@@ -17,12 +17,15 @@ Inside the [Main.java](./com/josma/Main.java) file you can find some other basic
 ```java
 public class Main 
 {
-    public static final String KEYS_FILEPATH = "Keys.ini"; // Path to the file containing the keys.
-    public static final String API_URL = "https://api.openstreetmap.org/api/0.6/"; // URL to the OSM API.
-    public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 10.0;..."; // Headers to use for requests.
+    public static final String KEYS_FILEPATH = "Keys.ini";
+    public static final String API_URL = "https://api.openstreetmap.org/api/0.6/";
+    public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 10.0;...";
     ....
 }
 ```
+- KEYS_FILEPATH: Contains the path to the file containing the keys.
+- API_URL: Contains the URL to the OSM API.
+- USER_AGENT: Contains the user agent to use when making requests.
 
 ## Examples
 After creating our object, we can use it to make requests:
