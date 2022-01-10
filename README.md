@@ -7,7 +7,7 @@ Java Open Street Map API (JOSMA) is a simple and minimal API to interact with OS
 3. Create a file named "Keys.ini" in the root of your project and put the keys into it like the following:
 ```ini
 [AuthenticationKeys]
-ConsumerKey = WW91IGhhdmUgdG9vIG11Y2ggdGltZQ==
+ConsumerKey = WW91IGhhdmUgdG9vIG11Y2ggdGltZQ
 ConsumerSecret = U3RvcCBkb2luZyB0aGlz
 ```
 Now you can use the application with your credentials.
