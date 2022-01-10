@@ -1,4 +1,4 @@
-package com.realtimegps;
+package com.josma;
 
 import de.westnordost.osmapi.OsmConnection;
 import de.westnordost.osmapi.user.*;

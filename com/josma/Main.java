@@ -1,6 +1,5 @@
-package com.realtimegps;
+package com.josma;
 
-import com.opencsv.exceptions.CsvException;
 import oauth.signpost.exception.*;
 import java.io.IOException;
 import java.io.File;

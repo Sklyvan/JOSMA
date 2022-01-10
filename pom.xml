@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sklyvan.Main</groupId>
-    <artifactId>MapRoute</artifactId>
+    <groupId>com.josma</groupId>
+    <artifactId>JOSMA</artifactId>
     <version>1</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
-
-        <dependency>
-            <groupId>com.opencsv</groupId>
-            <artifactId>opencsv</artifactId>
-            <version>5.5.2</version>
-        </dependency>
 
         <dependency>
             <groupId>de.westnordost</groupId>
