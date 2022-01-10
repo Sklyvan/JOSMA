@@ -24,8 +24,15 @@ public class Main
 }
 ```
 
+## Examples
+After creating our object, we can use it to make requests:
+```java
+OpenStreetMap MyMap = new OpenStreetMap(API_URL, USER_AGENT, CONSUMER_KEY, CONSUMER_SECRET);
+UserInfo userApi = new UserApi(MyMap.osmConnection).getMine();
+```
+
 ### External Dependencies & Licenses
-[OpenStreetMap API](https://github.com/westnordost/osmapi) (GNU Lesser General Public License v3.0)
+[OSMAPI](https://github.com/westnordost/osmapi) (GNU Lesser General Public License v3.0)
 <br>
 [Signpost OAuth Core 1.0](https://github.com/mttkay/signpost) (Apache License Version 2.0)
 <br>
